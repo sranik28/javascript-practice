@@ -40,22 +40,22 @@
 // Array useing while
 // -------------------
 
-var phn=["iphon"," redmi", "realmi", "vivo", "oppo", "nokia", "sumsung"]
-while(i=0){
-    i<phn.length;
-    console.log(phn);
-    i++
-}
-
-// var nums =[500, 200, 300, 100, 700, 250, 450];
-// for(var i= 0; i<nums.length; i++){
-//     var num = nums[i];
-//     if(num<300){
-//         continue;
-        
-//     }
-//     console.log(num)
+// var phn=["iphon"," redmi", "realmi", "vivo", "oppo", "nokia", "sumsung"]
+// while(i=0){
+//     i<phn.length;
+//     console.log(phn);
+//     i++
 // }
+
+var nums =[500, 200, 300, 100, 700, 250, 450];
+for(var i= 0; i<nums.length; i++){
+    var num = nums[i];
+    if(num<300){
+        continue;
+        
+    }
+    console.log(num)
+}
 
 // -------------
 // break point

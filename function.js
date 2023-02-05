@@ -60,12 +60,13 @@
 //     console.log(result)
 // }
 
-// function multiplication(){
-//     for (i=1; i<=10; i++){
-//         console.log(13+ " * " + i + " = " + 13*i )
-//     }
-// }
-// var math=multiplication()
+function multiplication(){
+    for (i=1; i<=10; i++){
+        console.log(13+ " X " + i + " = " + 13*i )
+    }
+}
+var math=multiplication()
+
 
 
 
@@ -83,18 +84,18 @@
 // console.log(result)
 
 
-var numbers=48;
-function isEven(numbers){
-    if(numbers%2 ==0){
+// var numbers=48;
+// function isEven(numbers){
+//     if(numbers%2 ==0){
         
-        return "true"; 
-    }
-    else{
-        return "false";
-    }     
-}
-var myNumber= isEven(numbers) ;
-console.log(myNumber);
+//         return "true"; 
+//     }
+//     else{
+//         return "false";
+//     }     
+// }
+// var myNumber= isEven(numbers) ;
+// console.log(myNumber);
  
 
 

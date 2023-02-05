@@ -96,3 +96,41 @@ function myMark(mark){
 let myResult = 15;
 const result= myMark(myResult);
 console.log(result);
+
+
+// second largest 
+
+// function findSecondLargestElem(arr){
+//     let first = -1 , second = -1;
+
+//     for(let i = 0; i <= arr.length-1; i++){
+//         if(arr[i] > first){
+//             second = first;
+//             first = arr[i];
+//         }
+//         else if( arr[i] > second && arr[i] != first){
+//             second = arr[i];
+//         }
+//     }
+//     return second;
+// }
+// let arr = [12, 39, 1, 10, 40, 1]
+// const result= findSecondLargestElem(arr);
+// console.log(result);
+
+
+let arr = [45, 92, 100, 91, 30, 95]
+let bigest =arr[0];
+// let output = [];
+for (let i = 0; i < arr.length; i++) {
+    for (let j = 0; j < arr.length; j++) {
+        if (arr[i] > arr[j]) {
+            let temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;            
+        }
+    }
+}
+console.log(arr[1]);
+
+

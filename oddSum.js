@@ -28,12 +28,12 @@ function getOfAnOddArray(numbers){
     let sum = 0;
     const oddnumbers =[];
     for(let i = 0; i <numbers.length; i++){
-        const index = i;
-        const element = numbers[index];
+        
+        const element = numbers[i];
         sum += element;
-        console.log(sum, element, index );
+        // console.log(sum, element, index );
         if(element % 2 !==0){
-            console.log("this is odd number", element)
+            // console.log("this is odd number", element)
             oddnumbers.push(element);
         }
     }
@@ -42,7 +42,10 @@ function getOfAnOddArray(numbers){
 
 const myNumber = [12, 63, 45, 78, 32, 95, 92 ];
 const oddNumber= getOfAnOddArray(myNumber);
-console.log(oddNumber);
+console.log("this is odd number:", oddNumber);
+
+
+
 
 
 

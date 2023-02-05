@@ -1,22 +1,22 @@
-// var mac=80000;
-// var gaming=60000;
-// var lenovo=40000;
-// var phn=20000;
+var mac=80000;
+var gaming=60000;
+var lenovo=40000;
+var phn=20000;
 
-// var myMoney=25000;
+var myMoney=25000;
 
-// if (myMoney>=80000){
-//     console.log("you are a borolox: mac user")
-// }
-// else if (myMoney>=60000){
-//     console.log("you use gaming")
-// }
-// else if (myMoney>=40000){
-//     console.log("you are a modhobitto: lenovo user")
-// }
-// else{
-//     console.log("youn are a goribs: vai phn kinna lou")
-// }
+if (myMoney>=80000){
+    console.log("you are a borolox: mac user")
+}
+else if (myMoney>=60000){
+    console.log("you use gaming")
+}
+else if (myMoney>=40000){
+    console.log("you are a modhobitto: lenovo user")
+}
+else{
+    console.log("youn are a goribs: vai phn kinna lou")
+}
 
 // // ------------
 // // jor number
@@ -30,12 +30,7 @@
 //     console.log("jor noy")
 // }
 
-function print(a, b, c){
-    return a+2;
-    return a*b;
-    return b*c+a;
-  }
-  console.log(print(1,2,3));
+
 
 
 
